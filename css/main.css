@@ -41,10 +41,17 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: 2px dotted var(--green-primary);
+  outline-offset: 3px;
+}
+
 html {
   height: 100%;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  outline: 2px dotted var(--green-primary);
+  outline-offset: 3px;
 }
 
 body {
@@ -117,7 +124,7 @@ h1 {
 
 /* Header Strat */
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 1rem;
 }
 
 .header-container {
@@ -128,6 +135,14 @@ h1 {
 
 .site-logo {
   margin-right: auto;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
 }
 
 .site-nav {
@@ -156,6 +171,15 @@ h1 {
   background: var(--primary-text);
   color: var(--white-color);
   font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+.navbar-btn:hover {
+  opacity: 0.8;
+}
+
+.navbar-btn:active {
+  opacity: 0.6;
 }
 
 .active {
@@ -254,6 +278,8 @@ footer {
 
 .footer-btn {
   height: 64px;
+  cursor: pointer;
+  border: none;
 }
 
 /* FOOTER END */
