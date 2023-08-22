@@ -1,3 +1,40 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --green-primary: #70c174;
+  --green-secondary: #bef3c0;
+  --green-tertiary: #eff7f2;
+  --black: #0b0706;
+  --primary-text: #1d2130;
+  --secondary-text: #525560;
+  --off-white: #ebf0f9;
+  --border: #e5e5e5;
+  --white-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +50,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-size: 62.5%;
+  font-family: " Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--secondary-text);
 }
 
 ul,
@@ -28,7 +72,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1340px;
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
@@ -37,3 +81,77 @@ a {
 main {
   flex-shrink: 1;
 }
+
+.btn {
+  border-radius: 4px;
+  padding: 1.6rem 3.2rem;
+}
+
+.primary-btn {
+  background: var(--green-primary);
+  backdrop-filter: blur(40px);
+}
+
+.secondary-btn {
+  background: var(--white-color);
+  backdrop-filter: blur(40px);
+}
+
+.active {
+  color: var(--black);
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Header Strat */
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+
+.site-logo {
+  margin-right: auto;
+}
+
+.site-nav {
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 2rem;
+}
+
+.sitenav-item {
+}
+
+.nav-link {
+  color: var(--secondary-text);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.navbar-btn {
+  padding: 1.2rem 1.6rem;
+  background: var(--primary-text);
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.active {
+  color: var(--black);
+}
+
+/* Header End */
