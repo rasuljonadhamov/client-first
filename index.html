@@ -3,110 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Client First</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <title>Client First | Home</title>
+    <!-- GLOBAL -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- HOME -->
+    <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
-    <!-- Header -->
+    <!-- HEADER START -->
     <header class="header">
-      <div class="container header-container">
-        <a class="site-logo" href="#">
+      <div class="header__container container">
+        <a href="./index.html" class="site-logo">
           <img
+            class="site-logo__image"
             src="./images/site-logo.svg"
-            alt="site-logo"
-            width="106"
-            height="24"
+            alt=""
+            width="122"
+            height="28"
           />
         </a>
-        <nav class="site-nav">
-          <ul class="nav-list">
-            <li class="sitenav-item">
-              <a href="./index.html" class="nav-link active">Home</a>
+
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a id="active" class="sitenav__link" href="#">Home</a>
             </li>
-            <li class="sitenav-item">
-              <a href="./pages/about/about.html" class="nav-link">About us</a>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./pages/about/about.html"
+                >About us</a
+              >
             </li>
-            <li class="sitenav-item">
-              <a href="./pages/whatwedo/whatwedo.html" class="nav-link"
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./pages/whatwedo/whatwedo.html"
                 >What We Do</a
               >
             </li>
-            <li class="sitenav-item">
-              <a href="./pages/media/media.html" class="nav-link">Media</a>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="./pages/media/media.html">Media</a>
             </li>
-            <li class="sitenav-item">
-              <a href="./pages/contact/contact.html" class="nav-link"
-                >Contact</a
-              >
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Contact</a>
             </li>
           </ul>
         </nav>
-        <a href="#" class="btn navbar-btn">Donate</a>
+
+        <a class="header__btn btn navbar-btn" href="#">Donate</a>
       </div>
     </header>
-    <!-- Header End -->
+    <!-- HEADER END -->
 
-    <!-- Main -->
-    <main>
-      <section class="hero-home">
-        <div class="container home-container">
-          <h2 class="title">
-            Save the environment today for a better tomorrow
-          </h2>
-        </div>
-      </section>
+    <!-- MAIN START -->
+    <main class="main">
+      
     </main>
-    <!-- Main End -->
+    <!-- MAIN END -->
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer-container container">
-        <a class="site-logo-f site-logo" href="./index.html">
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <!-- LOGO -->
+        <a href="./index.html" class="site-logo">
           <img
-            src="./images/site-logo-footer.svg"
-            alt="site-logo"
-            width="106"
-            height="24"
+            class="site-logo__image"
+            src="./images/site-logo-white.svg"
+            alt=""
+            width="122"
+            height="28"
           />
         </a>
 
-        <ul class="footer-list">
-          <li class="footer-item">
-            <h3 class="footer__link-title">Our team</h3>
-            <a class="footer-social-link" href="#">About us</a>
-            <a class="footer-social-link" href="#">Team</a>
-            <a class="footer-social-link" href="#">What we do</a>
-            <a class="footer-social-link" href="#">Contact</a>
-          </li>
+        <!-- DIV>LINKS -->
+        <div class="footer__links">
+          <ul class="footer__list">
+            <li class="footer__items">
+              <p class="footer__items__title">Our team</p>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">About us</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Team</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">What we do</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Contact</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__items">
+              <p class="footer__items__title">More</p>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Projects</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Events</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Donate</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Blog</a>
+            </li>
+          </ul>
+          <ul class="footer__list">
+            <li class="footer__items">
+              <p class="footer__items__title">Connect</p>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Facebook</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Instagram</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Twitter</a>
+            </li>
+            <li class="footer__items">
+              <a href="" class="footer__link">Linkdin </a>
+            </li>
+          </ul>
+        </div>
 
-          <li class="footer-item">
-            <h3 class="footer__link-title">More</h3>
-            <a class="footer-social-link" href="#">Projects</a>
-            <a class="footer-social-link" href="#">Events</a>
-            <a class="footer-social-link" href="#">Donate</a>
-            <a class="footer-social-link" href="#">Blog</a>
-          </li>
-
-          <li class="footer-item">
-            <h3 class="footer__link-title">Connect</h3>
-            <a class="footer-social-link" href="#">Facebook</a>
-            <a class="footer-social-link" href="#">Instagram</a>
-            <a class="footer-social-link" href="#">Twitter</a>
-            <a class="footer-social-link" href="#">Linkdin </a>
-          </li>
-        </ul>
-
-        <div class="footer-connect">
-          <h3 class="footer__connect-title">Subscribe to get latest updates</h3>
-
-          <form>
-            <input class="footer-input" type="text" placeholder="Your email" />
-            <button class="btn secondary-btn footer-btn">Subscribe</button>
+        <!-- FORM -->
+        <div class="footer__form">
+          <h2 class="footer__form__title">Subscribe to get latest updates</h2>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <div class="footer__form--wrapper">
+              <input
+                class="footer__form__input"
+                type="email"
+                aria-label="Your email"
+                placeholder="Your email"
+                name="email"
+                autocomplete="off"
+                required
+              />
+              <button class="footer__form__btn secondary-btn">Subscribe</button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
-    <!-- Footer End -->
+    <!-- FOOTER END -->
   </body>
 </html>
