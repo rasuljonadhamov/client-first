@@ -1,0 +1,80 @@
+.change__container {
+  margin-top: 9.6rem;
+}
+
+.change__wrapper {
+  text-align: center;
+}
+
+.change__date {
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6; /* 25.6px */
+  margin-bottom: 3.2rem;
+}
+
+.change__title {
+  color: var(--primary-text);
+  font-size: 5.6;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 67.2px */
+  margin-bottom: 1.6rem;
+}
+
+.change__desc {
+  color: var(--secondary-text);
+  font-size: 1.6;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+  margin-bottom: 4.8rem;
+}
+
+.change-img {
+  margin-bottom: 9.6rem;
+}
+
+.change__inner-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.change__inner-title {
+  color: var(--primary-text);
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 57.6px */
+  margin-bottom: 3.2rem;
+}
+
+.change__inner-desc {
+  color: var(--secondary-text);
+  font-size: 1.6;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.change__smal-title {
+  color: var(--primary-text);
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+
+.change__list {
+  margin-bottom: 3.2rem;
+  list-style: disc;
+}
+
+.change__item {
+  margin-left: 2rem;
+}
