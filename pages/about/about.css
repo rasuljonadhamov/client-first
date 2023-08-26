@@ -1,0 +1,379 @@
+/* HERO SECTION START */
+
+.about__hero {
+  padding-top: 9.6rem;
+  margin-bottom: 32rem;
+}
+
+.hero__container {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.hero__left-wrapper {
+}
+
+.hero__semi {
+}
+
+.heroooo {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2.4rem;
+}
+
+.projects__line {
+}
+
+.projext__text {
+}
+
+.hero__title {
+  color: var(--primary-text);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  margin-left: 10rem;
+}
+
+.righ__wrapper {
+  width: 100%;
+  max-width: 49.6rem;
+}
+
+.hero__smal-title {
+  color: var(--primary-text);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  margin-top: 6rem;
+}
+
+.hero__desc {
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+}
+
+/* HERO SECTION END */
+
+/* MISSION SECTION END */
+
+.mission {
+  padding: 9.6rem 0 4.8rem 0;
+  background: var(--green-tertiary);
+  margin-top: 9.6rem;
+}
+
+.mission__container {
+}
+
+.missin-bg {
+  width: 100%;
+  /* display: block; */
+  margin-top: -325px;
+  margin-bottom: 9.6rem;
+}
+
+.mission__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mission__left-text {
+}
+
+.mission__small-desc {
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.mission__title {
+  color: var(--primary-text);
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5; /* 42px */
+  margin-bottom: 0.8rem;
+  width: 100%;
+  max-width: 496px;
+}
+
+.mission__text {
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+  width: 100%;
+  max-width: 496px;
+}
+
+/* MISSION SECTION END */
+
+/* SUPPORTERS START */
+
+.supporters {
+  background: var(--green-tertiary);
+  margin-bottom: 4.8rem;
+}
+
+.supporter__container {
+}
+
+.supporters__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 9.7rem;
+}
+
+.supporters__desc {
+  margin-bottom: 3.4rem;
+}
+
+.support__img {
+  object-fit: cover;
+}
+
+/* SUPPORTERS END */
+
+/* AVARDS SECTION START */
+
+.avards {
+  padding-top: 4.8rem;
+  padding-bottom: 9.6rem;
+}
+
+.container {
+}
+
+.avards__titile {
+  text-align: center;
+  color: var(--primary-text);
+  font-size: 4.8;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 57.6px */
+  margin-bottom: 4.8rem;
+}
+
+.avards__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avards__item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.avards__img {
+  margin-bottom: 1.2rem;
+}
+
+.award__year {
+  color: var(--primary-text);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6; /* 38.4px */
+}
+
+.award__text {
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6; /* 25.6px */
+}
+
+.award__desc {
+  color: var(--primary-text);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6; /* 19.2px */
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* AVARDS SECTION END */
+
+/* JOURNEY SECTION START */
+
+.journey {
+}
+
+.container {
+  margin-bottom: 9.6rem;
+}
+
+.journey__container {
+  background: var(--black-color);
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  padding: 6.4rem 0 6.4rem 9.6rem;
+  border-radius: 12px;
+}
+
+.journey__info {
+  color: #fff;
+}
+
+.journey__desc {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.journey__title {
+  color: #fff;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 57.6px */
+  margin-bottom: 1.6rem;
+}
+
+.journey__text {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 0.6;
+  margin-bottom: 3.2rem;
+}
+
+.journey__texts-list {
+  display: flex;
+  align-items: center;
+  gap: 3.4rem;
+}
+
+.journey__info-num {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6; /* 38.4px */
+}
+
+.journey__info-text {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.6rem; /* 19.2px */
+  opacity: 0.6;
+}
+
+.journey-img {
+}
+
+/* JOURNEY SECTION END */
+
+/* MEMBERS SECTION START */
+
+.members {
+}
+
+.members__container {
+}
+
+.members__title {
+  color: var(--primary-text);
+  text-align: center;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.members__text {
+  color: var(--secondary-text);
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 519px;
+  margin: 0 auto;
+  margin-bottom: 4.8rem;
+  opacity: 0.6;
+}
+
+.members__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 4.8rem;
+}
+
+.members__item {
+  text-align: center;
+  width: 100%;
+  max-width: 296px;
+}
+
+.members__img {
+  margin-bottom: 1.6rem;
+}
+
+.members__name {
+  color: var(--primary-text);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  line-height: 1.6; /* 32px */
+}
+
+.members__home {
+  color: var(--primary-text);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  line-height: 1.6;
+  opacity: 0.6;
+}
+
+.members__social {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.socials__members {
+}
+
+/* MEMBERS SECTION END */
