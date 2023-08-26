@@ -1,3 +1,293 @@
 h1 {
-    font-size: 6.4rem;
+  font-size: 6.4rem;
 }
+
+.hero__container {
+  padding-top: 12.8rem;
+}
+
+.hero {
+  background-image: url("../images/bg-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  margin-bottom: 9.6rem;
+}
+
+.hero__title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+  width: 640px;
+  margin-bottom: 4.8rem;
+}
+.hero__btns-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19.2rem;
+  gap: 2.4rem;
+}
+.hero__btn {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero__icon {
+  margin-right: 0.8rem;
+}
+
+.hero__bottom-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.hero__desc {
+  color: #fff;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero__line {
+  width: 861px;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+/* HERO END */
+
+/* KNOW SECTION START */
+
+.know {
+  margin-bottom: 4.8rem;
+}
+
+.know__container {
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.know__wrapper {
+}
+
+.projects__text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.projects__line {
+}
+
+.projext__text {
+}
+
+.know__title {
+  color: var(--primary-text);
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 57.6px */
+  margin-bottom: 3.2rem;
+  margin-left: 9.5rem;
+}
+
+.know__text {
+  color: var(--secondary-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 9.5rem;
+  width: 100%;
+  max-width: 608px;
+  margin-bottom: 4.8rem;
+}
+
+.know__btn {
+  margin-left: 9.5rem;
+}
+
+.know__bg-img {
+}
+
+/* KNOW SECTION END */
+
+/* SUPPORTERS START */
+
+.supporters {
+  margin-top: 1.6rem;
+}
+
+.supporter__container {
+}
+
+.supporters__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6.6rem;
+}
+
+.supporters__desc {
+  margin-bottom: 3.4rem;
+}
+
+.support__img {
+  object-fit: cover;
+}
+
+/* SUPPORTERS END */
+
+/* WHATWEDO SECTION START */
+
+.whatwedo {
+  background: var(--green-tertiary);
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+
+.whatwedo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whatwedo__wrapper {
+}
+
+.whatwedo__bottom-infobox {
+  margin-left: 13rem;
+}
+
+.projext__text {
+  width: 608px;
+}
+
+.whatwedo__inner-wrapper {
+  display: flex;
+  align-items: self-start;
+  gap: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.whatwedo-icon {
+}
+
+.whatwedo__info {
+  width: 100%;
+  max-width: 38.5rem;
+}
+
+.whatwedo__info-ttile {
+  color: var(--primary-text);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+}
+
+.whatwedo__info-text {
+  color: var(--secondary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+}
+
+.whatwedo-bg {
+}
+
+/* WHATWEDO SECTION END */
+
+/* STATS SECTION START */
+
+.stats {
+  background: var(--black-color);
+  padding: 9.6rem 0;
+}
+
+.stats__container {
+  display: flex;
+  align-items: center;
+  gap: 29rem;
+}
+
+.stats__wrapper {
+}
+
+.stats__title {
+  color: #fff;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.stats__text {
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 0.6;
+  margin-bottom: 3.2rem;
+}
+
+.stats__list {
+  display: flex;
+  flex-wrap: wrap;
+  /* row-gap: 2.2rem; */
+  column-gap: 2.4rem;
+}
+
+.stats__item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.box {
+  width: 16px;
+  border-radius: 4px;
+  height: 16px;
+}
+
+.box1 {
+  background: var(--green-secondary);
+}
+
+.box2 {
+  background: #ac94f1;
+}
+
+.box3 {
+  background: #fff0ca;
+}
+
+.box4 {
+  background: #f9cf64;
+}
+
+.box5 {
+  background: #f38fbf;
+}
+
+.stats__item-desc {
+}
+
+.stats-img {
+}
+
+/* STATS SECTION END */
