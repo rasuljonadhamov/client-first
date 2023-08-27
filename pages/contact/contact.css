@@ -70,6 +70,7 @@
 .hero__container {
   display: flex;
   align-items: self-start;
+  gap: 16.6rem;
 }
 
 .hero__left-info {
@@ -263,4 +264,9 @@ form .form-row .textarea {
 
 .contact__footer {
   margin-top: 0;
+}
+
+.input__btn {
+  border: none;
+  cursor: pointer;
 }
