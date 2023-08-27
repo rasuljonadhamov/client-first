@@ -11,7 +11,7 @@
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header">
+    <header class="header contact__header">
       <div class="header__container container">
         <a href="../../index.html" class="site-logo">
           <img
@@ -29,41 +29,181 @@
               <a class="sitenav__link" href="../../index.html">Home</a>
             </li>
             <li class="sitenav__item">
-              <a  class="sitenav__link" href="../about/about.html">About us</a>
+              <a class="sitenav__link" href="../about/about.html">About us</a>
             </li>
-            <li  class="sitenav__item">
-              <a class="sitenav__link" href="../whatwedo/whatwedo.html">What We Do</a>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="../whatwedo/whatwedo.html"
+                >What We Do</a
+              >
             </li>
             <li class="sitenav__item">
               <a class="sitenav__link" href="../media/media.html">Media</a>
             </li>
             <li class="sitenav__item">
-              <a id="active" class="sitenav__link" href="./contact.html">Contact</a>
+              <a id="active" class="sitenav__link" href="./contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </nav>
 
-        <a class="header__btn btn navbar-btn" href="../donate/donate.html">Donate</a>
+        <a class="header__btn btn navbar-btn" href="../donate/donate.html"
+          >Donate</a
+        >
       </div>
     </header>
     <!-- HEADER END -->
 
     <!-- MAIN START -->
     <main class="main">
-      <section class="cta">
-        <div class="cta__container container">
-          <h2 class="cta__title">You can contribute to make the environment greener!</h2>
-          <div class="cta__links">
-            <a class="cta__links__btn primary-btn btn" href="#">Join as a volunteer</a>
-            <a class="cta__links__btn secondary-btn btn" href="../donate/donate.html">Donate</a>
+      <!-- MEDIA HERO START -->
+
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__left-info">
+            <hr class="projects__line what-line about what__line" />
+            <div class="hero__wrapper">
+              <p class="projext__text media__desc">Contact us</p>
+              <h1 class="hero__title media__title">
+                We'd love to hear <br />
+                from you
+              </h1>
+              <p class="hero__desc media__small-text">
+                Have any question in mind or want to enquire? Please feel free
+                to <br />
+                contact us through the form or the following details.
+              </p>
+            </div>
           </div>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <h3 class="contact__item-title">Let's talk!</h3>
+              <div class="smal_text-wrapper">
+                <p class="hero__desc media__small-text">+1 23 456 789</p>
+                <p class="hero__desc media__small-text">hello@finsweet.com</p>
+              </div>
+            </li>
+
+            <li class="contact__item">
+              <h3 class="contact__item-title">Headoffice</h3>
+              <div class="smal_text-wrapper">
+                <p class="hero__desc media__small-text">
+                  8 Brewery Drive, Hudson, NH 03051 USA
+                </p>
+              </div>
+            </li>
+
+            <li class="contact__item">
+              <h3 class="contact__item-title">Branch Office</h3>
+              <div class="smal_text-wrapper">
+                <p class="hero__desc media__small-text">
+                  178 Marconi St., Venice, 34293 Italy
+                </p>
+              </div>
+            </li>
+
+            <div class="members__social">
+              <img
+                src="../../images/linkedn.png"
+                alt=""
+                class="socials__members"
+              />
+              <img
+                src="../../images/tweeter.png"
+                alt=""
+                class="socials__members"
+              />
+              <img
+                src="../../images/facebook.png"
+                alt=""
+                class="socials__members"
+              />
+            </div>
+          </ul>
         </div>
       </section>
+
+      <!-- MEDIA HERO END -->
+
+      <!-------- CONSTACT SECTION  START ------->
+
+      <section class="form">
+        <!-- <div class="container form__container">
+          <form>
+            <label for="name" class="names">First Name</label>
+            <input type="text" />
+            <label for="last" class="name">Last Name</label>
+            <input type="name" />
+            <label for="name" class="names">Email ID</label>
+            <input type="email" />
+            <label for="last" class="name">Subject</label>
+            <input type="name" />
+
+            <label for="last" class="name">Message</label>
+            <input class="textbox" type="text" />
+          </form>
+        </div> -->
+
+        <div class="container_wrapper">
+          <form action="#">
+            <div class="form-row">
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">First Name</label>
+              </div>
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Last Name</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Email Id</label>
+              </div>
+              <div class="input-data">
+                <input type="text" required />
+                <div class="underline"></div>
+                <label for="">Subject</label>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="input-data textarea">
+                <textarea rows="8" cols="80" required></textarea>
+                <br />
+                <div class="underline"></div>
+                <label for="">Message</label>
+                <br />
+                <a href="#" class="btn primary-btn input__btn">Send message</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.573912563108!2d72.28117507596585!3d40.81535607137832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc959fa224f32f%3A0x692983cb92d3643!2sShirmonbuloq!5e0!3m2!1sen!2s!4v1693135047619!5m2!1sen!2s"
+          width="600"
+          class="maw"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <!-------- CONSTACT SECTION  START ------->
     </main>
     <!-- MAIN END -->
 
     <!-- FOOTER START -->
-    <footer class="footer">
+    <footer class="footer contact__footer">
       <div class="footer__container container">
         <!-- LOGO -->
         <a href="./index.html" class="site-logo">

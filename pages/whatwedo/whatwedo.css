@@ -1,0 +1,152 @@
+/* HERO SECTION START */
+
+.hero {
+  padding: 9.6rem 0;
+}
+
+.container {
+}
+
+.hero__container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.what-line {
+  margin-right: 2.4rem;
+  margin-top: 9px;
+}
+
+.hero__wrapper {
+}
+
+.projext__text {
+  margin-bottom: 3.2rem;
+}
+
+.hero__title {
+  color: var(--primary-text);
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 3.4rem;
+}
+
+.hero__desc {
+  color: var(--secondary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  width: 100%;
+  max-width: 594px;
+}
+
+.hero__bg {
+  margin-left: 11rem;
+}
+
+/* HERO SECTION END */
+
+/* WHATWEDO SECTION START */
+
+.whatwedo {
+  background: var(--green-tertiary);
+  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+
+.whatwedo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projext__text {
+  width: 608px;
+}
+
+.whatwedo__inner-wrapper {
+  display: flex;
+  align-items: self-start;
+  gap: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+
+.whatwedo-icon {
+}
+
+.whatwedo__info {
+  width: 100%;
+  max-width: 38.5rem;
+}
+
+.whatwedo__info-ttile {
+  color: var(--primary-text);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+}
+
+.whatwedo__info-text {
+  color: var(--secondary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+}
+
+.know__title {
+  color: var(--primary-text);
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 57.6px */
+  margin-bottom: 6.4rem;
+}
+
+.know__text {
+  color: var(--secondary-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 9.5rem;
+  width: 100%;
+  max-width: 608px;
+  margin-bottom: 4.8rem;
+}
+
+.whatwedo__bottom-infobox {
+  display: flex;
+  gap: 6.4rem;
+}
+
+/* WHATWEDO SECTION END */
+
+.we_project-title {
+  text-align: center;
+  width: 100%;
+  max-width: 88rem;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.projects_small-title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.projects-for-what {
+  margin-bottom: 9.6rem;
+}
