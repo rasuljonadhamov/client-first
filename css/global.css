@@ -753,6 +753,7 @@ main {
 
 .blog-section__item__link {
   color: var(--black-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .blog-section__item__link:hover {
