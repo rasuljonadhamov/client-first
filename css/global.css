@@ -400,7 +400,6 @@ template {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.3s;
 }
 
 *:focus {
@@ -495,11 +494,13 @@ h6 {
 .primary-btn {
   background-color: var(--green-primary);
   color: var(--white-color);
+  transition: all 0.3s ease-in;
 }
 
 .secondary-btn {
   background-color: var(--white-color);
   color: var(--primary-text);
+  transition: all 0.3s ease-in;
 }
 
 .navbar-btn {
@@ -843,6 +844,7 @@ main {
   max-width: 38.1rem;
   margin-top: 0.7rem;
   cursor: pointer;
+  transition: all 0.3s ease-in;
 }
 
 .events__long-title:hover {
@@ -892,8 +894,9 @@ main {
 }
 
 .footer__link {
-  opacity: 0.78;
+  opacity: 0.6;
   color: var(--white-color);
+  transition: all 0.3s ease-in;
 }
 
 .footer__link:hover {
@@ -941,3 +944,17 @@ main {
 
 /* GLOBAL SECTIONS START */
 /* GLOBAL SECTIONS END */
+
+.socials__members {
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background-color: #70c174;
+  color: #e5e5e5;
+}
+
+.primary-btn:hover {
+  background-color: #ebf0f9;
+  color: #0b0706;
+}
